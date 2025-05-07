@@ -74,29 +74,50 @@ Team-Sync는 조직 내 인적 자원을 최적으로 활용하기 위한 데이
 
 이런 문제점들을 해결하기 위해 Team-Sync는 데이터 기반으로 팀원들의 역량과 성향을 수치화하여 프로젝트 팀 구성시에 팀 성과를 극대화할 수 있도록 도구를 제공합니다.
 
+![개발배경](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/3.png)
+
 ## 핵심 기능
 
 ### 1. 인원 관리 기능
+![인원시퀀스](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/31.png)
+
 - 사원 정보 엑셀로 등록 및 관리
 - 사원 상세 정보 조회 (기술 스택, 경력, 프로젝트 이력 등)
 - 역할별 사원 목록 조회
+  ![인원관리1](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/10.png)
+  ![인원관리2](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/11.png)
+
 
 ### 2. 프로젝트 관리 기능
+![관리시퀀스](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/33.png)
+![관리시퀀스1](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/34.png)
 - 프로젝트 등록 및 관리
 - 프로젝트 상세 정보 조회
 - 프로젝트 타임라인 및 스프린트 관리
 - 프로젝트 차터 등록 (목표, 범위, 일정 등)
-
+- 프로젝트 상세 이력 확인
+- 
+  ![프로젝트관리](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/52.png)
+  ![프로젝트관리0](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/53.png)
+  ![프로젝트관리1](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/12.png)
+  ![프로젝트관리2](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/13.png)
+  ![프로젝트관리3](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/14.png)
+  
 ### 3. 팀 추천 기능
+![추천시퀀스](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/32.png)
 - 데이터 기반 최적 팀원 추천
 - 프로젝트 요구사항에 맞는 팀 구성 제안
 - 다기준 의사결정(MCDM) 모델 적용
 - AHP 기법을 활용한 가중치 설정
+  ![팀원추천1](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/16.png)
+  ![팀원추천2](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/17.png)
+  ![팀원추천3](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/8.png)
 
 ### 4. 성과 분석 기능
 - 팀 성과 지표 시각화
 - KPI 및 동료평가 데이터 분석
 - 프로젝트 완료 후 피드백 수집 및 분석
+  ![성과분석1](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/18.png)
 
 ## 기술 스택
 
@@ -113,7 +134,7 @@ Team-Sync는 조직 내 인적 자원을 최적으로 활용하기 위한 데이
 ## 아키텍처
 
 ### 시스템 아키텍처
-
+  ![아키텍처](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/27.png)
 
 1. **클라이언트**:
    - React 기반 웹 애플리케이션
@@ -129,13 +150,19 @@ Team-Sync는 조직 내 인적 자원을 최적으로 활용하기 위한 데이
    - FastAPI 기반 모델 서버:
      - 기업 내 팀원 추천 알고리즘
      - 지원자 추천 알고리즘
-
-3. **데이터베이스**:
+       
+   ![아키텍처1](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/28.png)
+   
+4. **데이터베이스**:
    - MySQL을 활용한 데이터 저장 및 관리
+   ![ERD](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/29.png)
+
 
 ## 알고리즘
 
 ### 팀 추천 알고리즘
+
+![제한사항](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/56.png)
 
 Team-Sync의 핵심은 다기준 의사결정 기법(MCDM)을 활용한 팀 추천 알고리즘입니다:
 
@@ -149,6 +176,11 @@ Team-Sync의 핵심은 다기준 의사결정 기법(MCDM)을 활용한 팀 추�
 3. **팀 구성 최적화**:
    - 프로젝트 요구사항과 인적 자원의 매칭을 통한 최적 팀 구성
    - 과거 성공 사례 분석을 통한 SC(Successful Cases-based) 알고리즘 적용
+
+![변수1](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/57.png)
+![변수2](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/58.png)
+![변수3](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/59.png)
+![변수4](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/6.png)
 
 ## 선행 기술
 
@@ -181,11 +213,11 @@ Team-Sync는 이러한 문제점을 해결하기 위해 데이터 기반 접근 
 - FastAPI를 활용한 추천 알고리즘 구현
 - MySQL 데이터베이스 설계
 
-## 향후 계획
+## 향후 및 성과 창출 계획
 
 1. 논문 및 저작권 등록 없이 GitHub 코드 공개
 2. 특허 명세서 작성 후 제출 (현재 초안 작성 후 제출 완료)
-
+![계획](https://github.com/BrianKim913/2024-2-SCS4031-PocketStone-6/tree/main/presentation/19.png)
 
 ## 💿 프로젝트 실행 방법
 
