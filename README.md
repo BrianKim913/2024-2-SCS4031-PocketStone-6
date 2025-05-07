@@ -81,6 +81,8 @@ Team-Sync는 이러한 문제점을 해결하기 위해 데이터 기반 접근 
 - Spring Data JPA
 - FastAPI (Python)
 - MySQL
+- AWS Elastic Beanstalk
+- Docker
 
 ## 아키텍처
 
