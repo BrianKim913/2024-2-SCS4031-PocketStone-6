@@ -15,6 +15,15 @@ Team-Sync는 조직 내 인적 자원을 최적으로 활용하기 위한 데이
 
 이런 문제점들을 해결하기 위해 Team-Sync는 데이터 기반으로 팀원들의 역량과 성향을 수치화하여 프로젝트 팀 구성시에 팀 성과를 극대화할 수 있도록 도구를 제공합니다.
 
+## 개발 배경
+1. **프로젝트 기반의 팀 조직**: 프로젝트 단위로 팀 구성이 필요
+2. **IT 기업 & 스타트업 채용 증가**: 인력 관리의 중요성 증대
+3. **관리자의 주관적 판단에 의존**: 데이터 기반 의사결정 부재
+4. **사원 특성의 미흡한 반영**: 개인의 특성, 역량, 성향 등이 충분히 고려되지 않음
+5. **선발 과정의 비효율성**: 부서 간 협상 및 인력 파악에 많은 시간과 자원 소모
+
+Team-Sync는 이러한 문제점을 해결하기 위해 데이터 기반 접근 방식을 제공
+
 ![개발배경](https://raw.githubusercontent.com/BrianKim913/2024-2-SCS4031-PocketStone-6/main/presentation/3.png)
 
 ## 핵심 기능
@@ -39,7 +48,6 @@ Team-Sync는 조직 내 인적 자원을 최적으로 활용하기 위한 데이
 - 프로젝트 상세 이력 확인
 
   ![관리시퀀스](https://raw.githubusercontent.com/BrianKim913/2024-2-SCS4031-PocketStone-6/main/presentation/33.png)
-  ![관리시퀀스1](https://raw.githubusercontent.com/BrianKim913/2024-2-SCS4031-PocketStone-6/main/presentation/34.png)
   ![프로젝트관리](https://raw.githubusercontent.com/BrianKim913/2024-2-SCS4031-PocketStone-6/main/presentation/52.png)
   ![프로젝트관리0](https://raw.githubusercontent.com/BrianKim913/2024-2-SCS4031-PocketStone-6/main/presentation/53.png)
   ![프로젝트관리1](https://raw.githubusercontent.com/BrianKim913/2024-2-SCS4031-PocketStone-6/main/presentation/12.png)
@@ -132,17 +140,6 @@ Team-Sync는 조직 내 인적 자원을 최적으로 활용하기 위한 데이
 1. **HR Analytics**: 인적 자원과 데이터 분석을 결합한 의사결정 지원 방식
 2. **다기준 의사결정(MCDM)**: 여러 기준을 통합하여 최적의 선택을 도출하는 기법
 3. **딥러닝 기반 팀빌딩**: 채용 이후 데이터를 활용한 팀 구성 최적화
-
-## 개발 배경
-
-
-1. **프로젝트 기반의 팀 조직**: 프로젝트 단위로 팀 구성이 필요
-2. **IT 기업 & 스타트업 채용 증가**: 인력 관리의 중요성 증대
-3. **관리자의 주관적 판단에 의존**: 데이터 기반 의사결정 부재
-4. **사원 특성의 미흡한 반영**: 개인의 특성, 역량, 성향 등이 충분히 고려되지 않음
-5. **선발 과정의 비효율성**: 부서 간 협상 및 인력 파악에 많은 시간과 자원 소모
-
-Team-Sync는 이러한 문제점을 해결하기 위해 데이터 기반 접근 방식을 제공
 
 ## 기대 효과
 
